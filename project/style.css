@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+nav {
+    background-color: rgba(43, 108, 173, 0.8);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background: rgba(3, 19, 4, 0.5);
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: #f5efec;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #f5efec;
+    font-size: 18px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(97, 164, 226, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #07880d;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #dfecf3;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(11, 139, 172, 0.9);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #078511;
+}
+
+th {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+tr:nth-child(even) {
+    background-color: #098833;
+}
+
+tr:hover {
+    background-color: #09d1c7;
+}
